@@ -16,7 +16,7 @@ body, html {
     justify-content: center;
 }
 .key {
-    border: 4rem solid lightcoral;
+    border: .4rem solid lightcoral;
     border-radius: .5rem;
     margin: 1rem;
     font-size: 1.5rem;
@@ -25,7 +25,7 @@ body, html {
     width: 10rem;
     text-align:center;
     color: #ffffff;
-    background-color: #000000;
+    background: rgba(0, 0, 0, 0.4);
     text-shadow: 0 0 .5rem black;
 }
 .playing {
