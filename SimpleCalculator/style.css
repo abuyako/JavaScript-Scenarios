@@ -40,3 +40,6 @@ form input[type="text"] {
   background-color: #f7f7f7;
   font-size: 14px;
 }
+.dollarSign {
+    display: inline;
+  }
