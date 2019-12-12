@@ -27,4 +27,14 @@ function CalculateTip() {
     //Display the tips
     document.getElementById("totalTip").style.display = "block";
     document.getElementById("tip").innerHTML = total;
+
+}
+
+//Hide the tip amount on load
+document.getElementById("totalTip").style.display = "none";
+document.getElementById("each").style.display = "none";
+
+//click to call function 
+document.getElementById("calculate").onclick = function() {
+    CalculateTip();
 }
