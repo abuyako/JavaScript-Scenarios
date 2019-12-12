@@ -41,5 +41,10 @@ form input[type="text"] {
   font-size: 14px;
 }
 .dollarSign {
-    display: inline;
-  }
+  display: inline;
+}
+#serviceQual {
+  padding: 13px 13px 20px 20px;
+  margin-left: 20px;
+  font-size: 25px;
+}
