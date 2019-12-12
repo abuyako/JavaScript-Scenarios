@@ -1,0 +1,9 @@
+html {
+    background: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: serif;
+    text-align: center;
+    font-size: 10px;
+}
