@@ -21,3 +21,6 @@ h1 {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+p {
+    padding-left: 20px;
+}
