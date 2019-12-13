@@ -20,3 +20,6 @@ img {
 .hl {
     color: var(--base);
 }
+.container {
+    margin-bottom: 50px;
+}
