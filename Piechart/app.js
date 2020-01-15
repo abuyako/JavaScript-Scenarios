@@ -13,5 +13,7 @@ function drawChart() {
 
   var options = {'title':'My Average Day', 'width':550, 'height':400};
 
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
 }
 ``
