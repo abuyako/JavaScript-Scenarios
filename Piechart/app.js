@@ -10,5 +10,8 @@ function drawChart() {
     ["Gym", 2],
     ["Sleep", 8]
   ]);
+
+  var options = {'title':'My Average Day', 'width':550, 'height':400};
+
 }
 ``
