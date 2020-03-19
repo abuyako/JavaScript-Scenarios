@@ -53,6 +53,6 @@ h2 , p {
     .topnav.responsive a {
         float: none;
         display: block;
-        text-align: center;
+        text-align: left;
     }
 }
