@@ -27,3 +27,6 @@ body {
 h2 , p {
     padding-left: 20px;
 }
+.topnav .icon {
+    display: none;
+}
