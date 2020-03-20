@@ -3,3 +3,7 @@ body {
     padding: 0;
     background-color: mistyrose;
 }
+
+h1, p {
+    padding-left: 20px;
+}
