@@ -3,6 +3,9 @@ body {
     padding: 0;
     background-color: mistyrose;
 }
+body h1, p {
+    text-align: center;
+}
 * {
     box-sizing: border-box;
 }
@@ -22,6 +25,9 @@ body {
     flex: 65%;
     padding: 15px;
     background-color: bisque;
+}
+.right p {
+    text-align: left;
 }
 #mySearch {
     width: 100%;
