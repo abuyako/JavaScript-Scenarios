@@ -8,6 +8,7 @@ function myFunction() {
       a = li[i].getElementsByTagName("a")[0];
       if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
         li[i].style.display = "";
+        a.style.display = "block"
       } else {
         li[i].style.display = "none";
       }
