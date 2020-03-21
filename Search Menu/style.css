@@ -21,3 +21,7 @@ h1, p {
 .left h2 {
     padding-left: 8px;
 }
+.right {
+    flex: 65%;
+    padding: 15px;
+}
