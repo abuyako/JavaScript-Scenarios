@@ -3,6 +3,9 @@ body {
     padding: 0;
     background-color: mistyrose;
 }
+* {
+    box-sizing: border-box;
+}
 
 h1, p {
     padding-left: 20px;
