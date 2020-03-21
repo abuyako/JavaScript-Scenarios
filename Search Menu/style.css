@@ -10,3 +10,14 @@ body {
 h1, p {
     padding-left: 20px;
 }
+
+.row {
+    display: flex;
+}
+.left {
+    flex: 35%;
+    padding: 15px 0;
+}
+.left h2 {
+    padding-left: 8px;
+}
