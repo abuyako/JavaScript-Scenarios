@@ -7,16 +7,13 @@ body {
     box-sizing: border-box;
 }
 
-h1, p {
-    padding-left: 20px;
-}
-
 .row {
     display: flex;
 }
 .left {
     flex: 35%;
     padding: 15px 0;
+    background-color: burlywood;
 }
 .left h2 {
     padding-left: 8px;
@@ -24,6 +21,7 @@ h1, p {
 .right {
     flex: 65%;
     padding: 15px;
+    background-color: bisque;
 }
 #mySearch {
     width: 100%;
