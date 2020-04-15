@@ -1,6 +1,6 @@
 function myFunction() {
     if (x.matches) {
-        document.body.style.backgroundColor = "red";
+        document.body.style.backgroundColor = "yellow";
     }else {
         document.body.style.backgroundColor = "pink";
     }
