@@ -14,3 +14,14 @@ body {
     letter-spacing: 2px;
     cursor: pointer;
 }
+#stop {
+    margin: 40px auto;
+    text-align: center;
+    color: #DAD6D6;
+    background:#48633B;
+    border: solid 2px #35492c;
+    border-radius: 5px;
+    padding: 16px 40px 16px;
+    letter-spacing: 2px;
+    cursor: pointer; 
+}
