@@ -36,3 +36,8 @@ body {
     letter-spacing: 2px;
     cursor: pointer;
 }
+h2 {
+    font-size: 64px;
+    letter-spacing: 2px;
+    margin: 200px 0 0;
+}
