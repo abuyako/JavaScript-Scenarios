@@ -26,3 +26,9 @@ var h1 = document.getElementsByTagName('h2')[0],
             t = setTimeout(add, 1000);
         }
         timer();
+
+        // start Button
+        start.onclick = timer;
+
+        // stop button
+        stop.onclick = 
