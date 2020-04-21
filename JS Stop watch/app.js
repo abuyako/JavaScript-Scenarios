@@ -31,4 +31,12 @@ var h1 = document.getElementsByTagName('h2')[0],
         start.onclick = timer;
 
         // stop button
-        stop.onclick = 
+        stop.onclick = function() {
+            clearTimeout(t);
+        }
+
+        // clear button
+        clear.onclick = function() {
+            h1.textContent = "00:00:00";
+            seconds = 0; minutes = 0; hours = 0;
+        }
