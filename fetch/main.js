@@ -24,3 +24,6 @@ fetch(url)
         append(ul, li);
     })
 })
+.catch(function(error) {
+    console.log(JSON.stringify(error));
+});
