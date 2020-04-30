@@ -17,5 +17,10 @@ fetch(url)
         let li = CreateNode('li'),
             img = CreateNode('img'),
             span = CreateNode('span');
+        img.src = author.picture.medium;
+        span.innerHTML = `${author.name.first} ${author.name.last}`;
+        append(li, img);
+        append(li, span);
+        append(ul, li);
     })
 })
