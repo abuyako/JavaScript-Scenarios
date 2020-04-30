@@ -8,3 +8,14 @@ function append(parent, el) {
 
 const ul = document.getElementById('authors');
 const url = 'https://randomuser.me/api/?results=10';
+
+fetch(url)
+.then((resp) => resp.json())
+.then(function(data) {
+    let authors = data.results;
+    return authors.map(function(author) {
+        let li = CreateNode('li'),
+            img = CreateNode('img'),
+            span = CreateNode('span');
+    })
+})
