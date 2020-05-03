@@ -53,3 +53,9 @@
 .active, .dot:hover {
     background-color: #717171;
 }
+q {
+    font-style: italic;
+}
+.author {
+    color: cornflowerblue;
+}
