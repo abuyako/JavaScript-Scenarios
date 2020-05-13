@@ -9,3 +9,14 @@ html {
 canvas {
     background: white;
 }
+#paint-app {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+/* for any tools that needs a live preview */
+.placeholder {
+    position: absolute;
+    z-index: 999;
+}
